@@ -39,7 +39,7 @@
     - Example `.env.local`:
 
       ```
-      NEXT_PUBLIC_API_URL=http://localhost:5000/api
+      URL=http://localhost:5000
       ```
 
       - Note the NEXT*PUBLIC* prefix. It is necessary for environment variables to be accessible within the nextJS browser environment.
