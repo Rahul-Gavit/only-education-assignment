@@ -1,0 +1,177 @@
+[
+  {
+    "title": "JavaScript Fundamentals",
+    "questions": [
+      {
+        "questionText": "What is the output of: console.log(typeof null);",
+        "options": ["null", "object", "undefined", "number"],
+        "correctAnswer": "object"
+      },
+      {
+        "questionText": "Which method is used to add an element to the end of an array in JavaScript?",
+        "options": ["push()", "append()", "add()", "insert()"],
+        "correctAnswer": "push()"
+      },
+      {
+        "questionText": "What does the '=== ' operator do in JavaScript?",
+        "options": [
+          "Assigns a value",
+          "Checks for equality with type coercion",
+          "Checks for strict equality (value and type)",
+          "Concatenates strings"
+        ],
+        "correctAnswer": "Checks for strict equality (value and type)"
+      },
+      {
+        "questionText": "What is a closure in JavaScript?",
+        "options": [
+          "A loop structure",
+          "A function inside another function",
+          "A function with preserved variables from its outer scope",
+          "A way to define classes"
+        ],
+        "correctAnswer": "A function with preserved variables from its outer scope"
+      },
+      {
+        "questionText": "Which built-in object in JavaScript is used to represent dates and times?",
+        "options": ["Time", "DateTime", "Date", "Calendar"],
+        "correctAnswer": "Date"
+      },
+      {
+        "questionText": "What is the purpose of the 'this' keyword in JavaScript?",
+        "options": [
+          "To refer to the current function",
+          "To refer to the global object",
+          "To refer to the object it belongs to",
+          "To create a new variable"
+        ],
+        "correctAnswer": "To refer to the object it belongs to"
+      },
+      {
+        "questionText": "What is the output of: console.log(2 + '2');",
+        "options": ["4", "22", "NaN", "Error"],
+        "correctAnswer": "22"
+      },
+      {
+        "questionText": "Which method removes the last element from an array and returns that element?",
+        "options": ["shift()", "pop()", "slice()", "splice()"],
+        "correctAnswer": "pop()"
+      },
+      {
+        "questionText": "What is the purpose of the 'JSON.parse()' method?",
+        "options": [
+          "To convert a JavaScript object to a JSON string",
+          "To convert a JSON string to a JavaScript object",
+          "To parse HTML code",
+          "To validate JavaScript syntax"
+        ],
+        "correctAnswer": "To convert a JSON string to a JavaScript object"
+      },
+      {
+        "questionText": "What is the output of: console.log(0.1 + 0.2 === 0.3);",
+        "options": ["true", "false", "undefined", "null"],
+        "correctAnswer": "false"
+      }
+    ]
+  },
+  {
+    "title": "React Fundamentals",
+    "questions": [
+      {
+        "questionText": "What is the primary purpose of React?",
+        "options": [
+          "Server-side rendering",
+          "Building user interfaces",
+          "Database management",
+          "Creating animations"
+        ],
+        "correctAnswer": "Building user interfaces"
+      },
+      {
+        "questionText": "What is JSX?",
+        "options": [
+          "A JavaScript extension for styling",
+          "A syntax extension for JavaScript that looks like HTML",
+          "A database query language",
+          "A server-side scripting language"
+        ],
+        "correctAnswer": "A syntax extension for JavaScript that looks like HTML"
+      },
+      {
+        "questionText": "What is a React component?",
+        "options": [
+          "A data structure",
+          "A reusable piece of UI",
+          "A database table",
+          "A server-side function"
+        ],
+        "correctAnswer": "A reusable piece of UI"
+      },
+      {
+        "questionText": "What is the purpose of 'props' in React?",
+        "options": [
+          "To manage state",
+          "To pass data from parent to child components",
+          "To handle events",
+          "To define styles"
+        ],
+        "correctAnswer": "To pass data from parent to child components"
+      },
+      {
+        "questionText": "What is 'state' in React?",
+        "options": [
+          "A database connection",
+          "A way to define styles",
+          "A JavaScript object that manages a component's data",
+          "A server-side session"
+        ],
+        "correctAnswer": "A JavaScript object that manages a component's data"
+      },
+      {
+        "questionText": "Which hook is used for managing side effects in functional components?",
+        "options": ["useState", "useContext", "useEffect", "useReducer"],
+        "correctAnswer": "useEffect"
+      },
+      {
+        "questionText": "What is the purpose of the 'key' prop when rendering lists in React?",
+        "options": [
+          "To style the list items",
+          "To provide a unique identifier for each list item",
+          "To sort the list items",
+          "To filter the list items"
+        ],
+        "correctAnswer": "To provide a unique identifier for each list item"
+      },
+      {
+        "questionText": "What is the name of the tool used to create a new React project?",
+        "options": [
+          "npm create-react-app",
+          "react new",
+          "create-react",
+          "react-cli"
+        ],
+        "correctAnswer": "npm create-react-app"
+      },
+      {
+        "questionText": "What is the purpose of 'useState' hook?",
+        "options": [
+          "To manage side effects",
+          "To manage state in functional components",
+          "To manage context",
+          "To manage refs"
+        ],
+        "correctAnswer": "To manage state in functional components"
+      },
+      {
+        "questionText": "How do you conditionally render elements in React?",
+        "options": [
+          "Using for loops",
+          "Using if statements or ternary operators",
+          "Using switch statements",
+          "Using while loops"
+        ],
+        "correctAnswer": "Using if statements or ternary operators"
+      }
+    ]
+  }
+]
